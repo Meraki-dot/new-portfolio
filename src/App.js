@@ -1,5 +1,5 @@
 import React from 'react';
-import { hot } from "react-hot-loader";
+// import { hot } from "react-hot-loader";
 import './sass/styles.scss';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -20,4 +20,4 @@ const App = () => {
     )
 }
 
-export default hot(module)(App);
+export default (App);

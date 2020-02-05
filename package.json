@@ -8,9 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile-sass": "node-sass --watch src/sass -o src/css",
     "start": "webpack-dev-server --inline",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",

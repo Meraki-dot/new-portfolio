@@ -46,7 +46,7 @@
       }
 
       & .singular-work-container {
-        height: 12em;
+        height: 15em;
 
         & h2 {
           @include font-bold;
@@ -58,6 +58,15 @@
           font-size: 0.9em;
         }
       }
+    }
+  }
+  .link-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 3em;
+    
+    & a {
+      color: black;
     }
   }
 }
@@ -108,7 +117,7 @@
       }
 
       & .singular-work-container {
-        height: 8em;
+        height: 11.5em;
 
         & h2 {
           @include font-bold;
@@ -122,14 +131,14 @@
       }
     }
   }
-}
-
-.link-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 3em;
-  
-  & a {
-    color: black;
+  .link-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 3em;
+    
+    & a {
+      color: black;
+    }
   }
 }
+

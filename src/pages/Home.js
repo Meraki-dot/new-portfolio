@@ -36,7 +36,7 @@ const Home = () => {
                         <p>ux/ui design · front end development · website</p>
                     </Link>
                     <div className="link-icons">
-                        <a href="https://github.com/Meraki-dot/LLCC_CMmer" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                        <a href="https://github.com/Meraki-dot/LLCC_CM" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
                         {/* <a href=""><FontAwesomeIcon icon={faExternalLinkAlt} /></a> */}
                     </div>
                 </div>

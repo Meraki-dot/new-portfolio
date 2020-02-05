@@ -1,0 +1,214 @@
+@media screen and (min-width: 921px) {
+  .main-container {
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px; }
+    .main-container .greetings-container {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 2em;
+      height: 7em;
+      cursor: default; }
+      .main-container .greetings-container span {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: white;
+        -webkit-font-smoothing: antialiased; }
+        .main-container .greetings-container span:hover {
+          color: black;
+          text-shadow: none; }
+    .main-container .description {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 400;
+      font-size: 2em;
+      height: 8em;
+      cursor: default; }
+      .main-container .description span {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: white;
+        -webkit-font-smoothing: antialiased; }
+        .main-container .description span:hover {
+          color: black;
+          text-shadow: none; }
+    .main-container .column-of-work {
+      display: flex;
+      flex-direction: column; }
+      .main-container .column-of-work a {
+        text-decoration: none; }
+      .main-container .column-of-work .singular-work-container {
+        height: 12em; }
+        .main-container .column-of-work .singular-work-container h2 {
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 700;
+          color: black; }
+        .main-container .column-of-work .singular-work-container p {
+          color: #646464;
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 400;
+          font-size: 0.9em; } }
+
+@media screen and (max-width: 920px) {
+  .main-container {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 20px; }
+    .main-container .greetings-container {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 1.6em;
+      height: 12em;
+      cursor: default; }
+      .main-container .greetings-container span {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: white;
+        -webkit-font-smoothing: antialiased; }
+        .main-container .greetings-container span:hover {
+          color: black;
+          text-shadow: none; }
+    .main-container .description {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 400;
+      font-size: 1.5em;
+      height: 11em;
+      cursor: default; }
+      .main-container .description span {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: white;
+        -webkit-font-smoothing: antialiased; }
+        .main-container .description span:hover {
+          color: black;
+          text-shadow: none; }
+    .main-container .column-of-work {
+      display: flex;
+      flex-direction: column; }
+      .main-container .column-of-work a {
+        text-decoration: none; }
+      .main-container .column-of-work .singular-work-container {
+        height: 8em; }
+        .main-container .column-of-work .singular-work-container h2 {
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 700;
+          color: black; }
+        .main-container .column-of-work .singular-work-container p {
+          color: #646464;
+          font-family: "Noto Sans", sans-serif;
+          font-weight: 400;
+          font-size: 0.9em; } }
+
+@media screen and (min-width: 921px) {
+  .nav-container {
+    display: flex;
+    width: 12em;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 15em;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em; }
+    .nav-container .work-container a {
+      text-decoration: none;
+      color: black; }
+      .nav-container .work-container a:hover {
+        background-color: black;
+        color: white; }
+    .nav-container .contact-container a {
+      text-decoration: none;
+      color: black; }
+      .nav-container .contact-container a:hover {
+        background-color: black;
+        color: white; } }
+
+@media screen and (max-width: 920px) {
+  .nav-container {
+    display: flex;
+    width: 15em;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.2em; }
+    .nav-container .work-container a {
+      text-decoration: none;
+      color: black; }
+      .nav-container .work-container a:hover {
+        background-color: black;
+        color: white; }
+    .nav-container .contact-container a {
+      text-decoration: none;
+      color: black; }
+      .nav-container .contact-container a:hover {
+        background-color: black;
+        color: white; } }
+
+@media screen and (min-width: 921px) {
+  .main-container h1 a {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+    -webkit-font-smoothing: antialiased; }
+    .main-container h1 a:hover {
+      color: black;
+      text-shadow: none; }
+  .main-container .contact-container h1 {
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700;
+    font-size: 3em; } }
+
+@media screen and (max-width: 920px) {
+  h1 a {
+    text-decoration: none;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: white;
+    -webkit-font-smoothing: antialiased; }
+    h1 a:hover {
+      color: black;
+      text-shadow: none; }
+  .contact-page-container {
+    margin-top: 8em; }
+    .contact-page-container h1 {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+      font-size: 3em; } }
+
+#dollface-container .dollface-title-container {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 2em;
+  height: 7em;
+  cursor: default; }
+
+#dollface-container img {
+  width: inherit;
+  border: darkgray 2px solid; }
+
+#dollface-container p {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  padding: 3em 5em 0 5em;
+  line-height: 1.75em;
+  letter-spacing: 0.075em; }
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px; }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white; }
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #464646; }
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; }

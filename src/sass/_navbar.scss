@@ -1,0 +1,71 @@
+@import "./themes/theme";
+
+@media screen and (min-width: 921px) {
+  .nav-container {
+    display: flex;
+    width: 12em;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 15em;
+    @include font-bold;
+    letter-spacing: 0.2em;
+
+    & .work-container {
+      & a {
+        text-decoration: none;
+        color: $secondary;
+        &:hover {
+          background-color: black;
+          color: $primary;
+        }
+      }
+    }
+    & .contact-container {
+      & a {
+        text-decoration: none;
+        color: $secondary;
+
+        &:hover {
+          background-color: black;
+          color: $primary;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .nav-container {
+    display: flex;
+    width: 15em;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 5em;
+    @include font-bold;
+    letter-spacing: 0.2em;
+
+    & .work-container {
+      & a {
+        text-decoration: none;
+        color: $secondary;
+        &:hover {
+          background-color: black;
+          color: $primary;
+        }
+      }
+    }
+    & .contact-container {
+      & a {
+        text-decoration: none;
+        color: $secondary;
+
+        &:hover {
+          background-color: black;
+          color: $primary;
+        }
+      }
+    }
+  }
+}

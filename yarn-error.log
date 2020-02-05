@@ -1,0 +1,68 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\nodejs\;C:\Ruby26-x64\bin;C:\Users\joshu\AppData\Local\Microsoft\WindowsApps;C:\Users\joshu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\joshu\AppData\Local\GitHubDesktop\bin;C:\tools\dart-sdk\bin;C:\Users\joshu\AppData\Roaming\Pub\Cache\bin;C:\Users\joshu\AppData\Local\Yarn\bin;C:\Users\joshu\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\joshu\Documents\GitHub\new-portfolio\node_modules\node-sass\vendor\win32-x64-72\binding.node'
+
+npm manifest: 
+  {
+    "name": "new-portfolio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "compile-sass": "node-sass --watch src/sass -o src/css",
+      "build": "webpack --mode development",
+      "start": "webpack-dev-server --inline"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Meraki-dot/new-portfolio.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Meraki-dot/new-portfolio/issues"
+    },
+    "homepage": "https://github.com/Meraki-dot/new-portfolio#readme",
+    "devDependencies": {
+      "@babel/cli": "^7.1.0",
+      "@babel/core": "^7.1.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-loader": "^8.0.2",
+      "css-loader": "^1.0.0",
+      "file-loader": "^5.0.2",
+      "node-sass": "^4.13.1",
+      "sass-loader": "^8.0.2",
+      "style-loader": "^0.23.0",
+      "webpack": "^4.41.5",
+      "webpack-cli": "^3.1.1",
+      "webpack-dev-server": "^3.10.2"
+    },
+    "dependencies": {
+      "react": "^16.12.0",
+      "react-dom": "^16.12.0",
+      "react-hot-loader": "^4.12.19",
+      "react-router-dom": "^5.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

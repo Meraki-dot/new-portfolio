@@ -1,0 +1,121 @@
+@import "./themes/theme";
+
+@media screen and (min-width: 921px) {
+  #dollface-container {
+    & .dollface-title-container {
+      @include font-bold;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 2em;
+      height: 4em;
+      cursor: default;
+    }
+    & .project-overview {
+      @include center;
+      margin-left: 2em;
+    }
+    & .project-goals {
+      margin-left: 2em;
+    }
+    & img {
+      width: inherit;
+      border: darkgray 2px solid;
+    }
+    & #dollface-first-img {
+      margin-top: 3em;
+    }
+    & p {
+      @include font-reg;
+      padding: 3em 5em 0 2em;
+      margin-bottom: -1em;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+    & ol {
+      @include font-reg;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+
+    & .space {
+      margin-top: 4.2em;
+    }
+    & .dollface-project-challenges {
+      height: 33em;
+
+      & .dollface-project-challenges-text {
+        width: 60em;
+        margin-left: 2em;
+      }
+    }
+    & .dollface-project-conclusion {
+      margin-bottom: 10em;
+
+      & p {
+        margin-left: 2em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #dollface-container {
+    & .dollface-title-container {
+      @include font-bold;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 1.5em;
+      cursor: default;
+
+      & h1 {
+        text-align: center;
+      }
+    }
+    & .project-overview {
+      @include center;
+      width: 22em;
+
+    }
+    & .project-goals {
+      width: 22em;
+    }
+    & img {
+      display: none;
+    }
+    & #dollface-first-img {
+      margin-top: 3em;
+    }
+    & p {
+      @include font-reg;
+      padding: 3em 5em 0 2em;
+      margin-bottom: -1em;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+    & ol {
+      @include font-reg;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+
+    & .space {
+      margin-top: 4.2em;
+    }
+    & .dollface-project-challenges {
+      height: 77em;
+
+      & .dollface-project-challenges-text {
+        width: 22em;
+      }
+    }
+    & .dollface-project-conclusion {
+      margin-bottom: 10em;
+
+      & p {
+        
+      }
+    }
+  }
+}

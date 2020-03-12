@@ -21,6 +21,7 @@
       & h1 {
         @include font-bold;
           font-size: 3.8em;
+          margin-top: 1.5em;
         & a {
           text-decoration: none;
           @include outline;
@@ -35,8 +36,9 @@
       & span {
         @include outline;
         &:hover {
-          color: $secondary;
+          color: #788878;
           text-shadow: none;
+          cursor: none;
         }
       }
     }
@@ -50,8 +52,9 @@
       @include outline;
 
       &:hover {
-        color: $secondary;
+        color: #788878;
         text-shadow: none;
+        cursor: pointer;
       }
     }
   }

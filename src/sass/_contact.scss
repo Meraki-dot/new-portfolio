@@ -33,14 +33,6 @@
           
         }
       }
-      & span {
-        @include outline;
-        &:hover {
-          color: #788878;
-          text-shadow: none;
-          cursor: none;
-        }
-      }
     }
   }
 }

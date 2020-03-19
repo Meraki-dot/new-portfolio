@@ -1,0 +1,141 @@
+@import "./themes/theme";
+
+@media screen and (min-width: 921px) {
+  #project-container {
+    & .project-title-container {
+      @include font-bold;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 2em;
+      height: 4em;
+      cursor: default;
+    }
+    & .project-overview {
+      @include center;
+      margin-left: 2em;
+    }
+    & .project-goals {
+      margin-left: 2em;
+    }
+    & img {
+      width: inherit;
+      border: 1px solid lightgray;
+    }
+    & #project-first-img {
+      margin-top: 3em;
+    }
+    & p {
+      @include font-reg;
+      padding: 3em 5em 0 2em;
+      margin-bottom: -1em;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+    & ol {
+      @include font-reg;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+
+    & .space {
+      margin-top: 5em;
+    }
+    & .space-bottom {
+      margin-bottom: 8em;
+    }
+    & .img-space {
+      margin-top: 5em;
+    }
+    & .project-challenges {
+      height: 22em;
+
+      & .challenges-text {
+        width: 60em;
+        margin-left: 2em;
+      }
+    }
+    & .project-conclusion {
+      margin-bottom: 10em;
+
+      & img {
+        width: 100%;
+      }
+      & p {
+        margin-left: 2em;
+      }
+    }
+    & .ending-space {
+      margin-bottom: 12em;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #project-container {
+    .img-space {
+      display: none;
+    }
+    & .project-title-container {
+      @include font-bold;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      font-size: 1.5em;
+      cursor: default;
+
+      & h1 {
+        text-align: center;
+      }
+    }
+    & .project-overview {
+      @include center;
+      width: 22em;
+
+    }
+    & .project-goals {
+      width: 22em;
+    }
+    & img {
+      display: none;
+    }
+    & #first-img {
+      margin-top: 3em;
+    }
+    & p {
+      @include font-reg;
+      padding: 3em 5em 0 2em;
+      margin-bottom: -1em;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+    & ol {
+      @include font-reg;
+      line-height: 1.75em;
+      letter-spacing: 0.075em;
+    }
+
+    & .space {
+      margin-top: 4.2em;
+    }
+
+    & .project-challenges {
+      height: auto;
+
+      & .project-challenges-text {
+        width: 22em;
+      }
+    }
+    & .project-conclusion {
+      margin-bottom: 10em;
+
+      h1 {
+        margin-bottom: 0;
+      }
+      p {
+        margin: 0;
+        padding-top: 0;
+      }
+    }
+  }
+}

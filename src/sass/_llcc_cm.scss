@@ -1,7 +1,0 @@
-@import './themes/theme';
-
-#llcc-container {
-    & h1 {
-        @include font-bold;
-    }
-}

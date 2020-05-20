@@ -1,6 +1,7 @@
 import React from 'react';
 import DollfaceHome from './dollface-home.jpg';
 import DollfaceMobileMenu from './dollface-mobile-menu.jpg';
+import DollfaceServices from './dollface-services.jpg';
 import Navbar from '../../General/Navbar';
 
 const Dollface = () => {
@@ -33,7 +34,7 @@ const Dollface = () => {
                 </div>
                 <div className="project-challenges-text" id="dollface-challenge">
                     <p>
-                        Many similar businesses opted for a nearly identical style and feel for their website. I had to figure out how to create a website that stood out and was unique in a sea of similarities. After taking the time to research, I found another common theme in other eyebrow tattoo website. They all wanted to portray an image of elegant beauty with the use of script-themed fonts, floral patterns, and gold-brown color accents. I decided to create a website that utilized a color scheme that only involved black, white, and grey. I also opted for no design patterns and used two fonts to help the customer distinguish between title and content. One font was thicker in weight and blockier in style, and the other was a simple sans-serif type font. The sharp differences allowed the fonts to work together to make the reading experience pleasurable.
+                        Many similar businesses opted for a nearly identical style and feel for their website. I had to figure out how to create a website that stood out and was unique in a sea of similarities. After taking the time to research, I found another common theme in other eyebrow tattoo websites and that was that they all wanted to portray an image of elegant beauty through the use of script-based fonts, floral patterns, and gold-brown color accents. I decided to create a website that utilized a color scheme that only involved black, white, and grey to show users a website that was clear cut and simple, much like the service they would be receiving. I also opted for no design patterns as to not distract the user from the task at hand which was to book an appointment.
                     </p>
                 </div>
             </div>
@@ -47,10 +48,12 @@ const Dollface = () => {
                 <div className="space"></div>
                 <div className="project-conclusion-text">
                     <p>
-                    The vision for the website has seemingly been obtained. The site is currently going through user testing before becoming live. After a few months of the website being live, a more thoughtful and more explicit conclusion will be given.
+                        Users enjoyed the simple interface and felt as if the website portrayed the business very well. We randomly selected 20 individuals which provided a mixture of interests and age groups. Ultimately, this gave us a clearer picture of how fluid and easy to use the website was. 18 out of the 20 individuals commented that the website was very simple and very easy to use and all participants gave a score of 3 or lower when asked to rate how easy the website was to navigate from 1 - 10  (1 being the easiest and 10 being the hardest). Addtionally, 16 out of 20 said that they would recommend the website to colleagues, friends and family if they knew someone interested in permanent makeup services. The color scheme, sharp edges, and minimistic layout allowed people from all kinds of background to easily navigate through the webiste without much difficulty which would in theory, not only enable users to find information they need but also to easily book appointments for their next permanent makeup service.
                     </p>
                 </div>
             </div>
+            <img src={DollfaceServices} />
+            <div className="space"></div>
         </div>
     )
 }

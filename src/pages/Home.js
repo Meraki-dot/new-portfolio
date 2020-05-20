@@ -27,7 +27,7 @@ const Home = () => {
                     </Link>
                     <div className="link-icons">
                         <a href="https://github.com/Meraki-dot/dollfacepmu" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-                        <a href="https://meraki-dot.github.io/dollfacepmu/" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
+                        <a href="https://dollfacepmu.com" target="_blank"><FontAwesomeIcon icon={faExternalLinkAlt} /></a>
                     </div>
                 </div>
                 <div className="singular-work-container">

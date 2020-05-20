@@ -5,8 +5,8 @@ import pabl_homepage from './pabl_homepage.png';
 import pabl_home_makeup from './pabl_home_makeup.png';
 import pabl_home_event from './pabl_home_event.png';
 import pabl_meet from './pabl_meet.png';
-import pabl_makeup from './pabl_makeup.png';
-import pabl_event from './pabl_event.png';
+import pabl_makeup from './pabl_makeup.jpg';
+import pabl_event from './pabl_event.jpg';
 
 const Pabl = () => {
     return (

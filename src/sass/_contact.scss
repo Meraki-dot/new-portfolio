@@ -5,11 +5,11 @@
     & #contact-greeting {
       & h1 {
         @include font-bold;
-          font-size: 2em;
+        font-size: 2em;
         & a {
           text-decoration: none;
           @include outline;
-  
+
           &:hover {
             color: $secondary;
             text-shadow: none;
@@ -20,17 +20,16 @@
     & .contact-page-container {
       & h1 {
         @include font-bold;
-          font-size: 3.8em;
-          margin-top: 1.5em;
+        font-size: 3.8em;
+        margin-top: 1.5em;
         & a {
           text-decoration: none;
           @include outline;
-  
+
           &:hover {
             color: $secondary;
             text-shadow: none;
           }
-          
         }
       }
     }
@@ -38,24 +37,32 @@
 }
 
 @media screen and (max-width: 920px) {
-  & h1 {
-    & a {
-      text-decoration: none;
-      @include outline;
-
-      &:hover {
-        color: #788878;
-        text-shadow: none;
-        cursor: pointer;
-      }
-    }
-  }
-  & .contact-page-container {
-    margin-top: 8em;
-
+  #contact-main-container {
+    height: 100vh;
     & h1 {
       @include font-bold;
-      font-size: 3em;
+      font-size: 35px;
+      & a {
+        text-decoration: none;
+        @include outline;
+
+        &:hover {
+          color: #788878;
+          text-shadow: none;
+          cursor: pointer;
+        }
+      }
+    }
+    & #contact-first {
+      margin-top: 3em;
+      margin-bottom: 0em;
+    }
+    & .contact-page-container {
+      margin-top: 2em; 
+      & h1 {
+        @include font-bold;
+        font-size: 35px; 
+      }
     }
   }
 }

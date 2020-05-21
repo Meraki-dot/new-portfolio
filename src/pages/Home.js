@@ -7,7 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => {
     return (
-        <div className="main-container">
+        <div className="main-container" id="home-container">
             <Navbar />
             <div className="greetings-container">
                 <h1>
@@ -32,7 +32,7 @@ const Home = () => {
                 </div>
                 <div className="singular-work-container">
                     <Link to='/angela_contreras'>
-                        <h2>angela contreras</h2>
+                        <h2>angela contreras · ongoing</h2>
                         <p>ux/ui design · front end development · website</p>
                     </Link>
                     <div className="link-icons">

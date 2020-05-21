@@ -8,13 +8,13 @@
     margin: 0 auto;
     padding: 0 20px;
 
-    & .greetings-container {
+    .greetings-container {
       @include font-bold;
       font-size: 2em;
       height: 7em;
       cursor: default;
 
-      & span {
+      span {
         @include outline;
         &:hover {
           color: black;
@@ -24,13 +24,13 @@
       }
     }
 
-    & .description {
+    .description {
       @include font-reg;
       font-size: 2em;
       height: 8em;
       cursor: default;
 
-      & span {
+      span {
         @include outline;
         &:hover {
           color: black;
@@ -39,22 +39,22 @@
         }
       }
     }
-    & .column-of-work {
+    .column-of-work {
       display: flex;
       flex-direction: column;
 
-      & a {
+      a {
         text-decoration: none;
       }
 
-      & .singular-work-container {
+      .singular-work-container {
         height: 15em;
 
-        & h2 {
+        h2 {
           @include font-bold;
           color: $secondary;
         }
-        & p {
+        p {
           color: $tertiary;
           @include font-reg;
           font-size: 0.9em;
@@ -66,27 +66,29 @@
     display: flex;
     justify-content: space-between;
     width: 3em;
-    
-    & a {
+
+    a {
       color: black;
     }
   }
 }
 
 @media screen and (max-width: 920px) {
-  .main-container {
+  #home-container {
     position: relative;
     width: 100%;
     display: flex;
     flex-direction: column;
 
-    & .greetings-container {
+    .greetings-container {
       @include font-bold;
+      margin-top: 1em;
       font-size: 1.6em;
-      height: 12em;
+      height: 5em;
       cursor: default;
+      padding: 0 1em;
 
-      & span {
+      span {
         @include outline;
         &:hover {
           color: black;
@@ -96,13 +98,15 @@
       }
     }
 
-    & .description {
+    .description {
       @include font-reg;
       font-size: 1.5em;
       height: 11em;
       cursor: default;
+      margin-top: 8em;
+      padding: 0 1em;
 
-      & span {
+      span {
         @include outline;
         &:hover {
           color: black;
@@ -111,25 +115,26 @@
         }
       }
     }
-    & .column-of-work {
+    .column-of-work {
       display: flex;
       flex-direction: column;
+      padding: 0 1.5em;
 
-      & a {
+      a {
         text-decoration: none;
       }
 
-      & .singular-work-container {
-        height: 11.5em;
+      .singular-work-container {
+        height: auto;
 
-        & h2 {
+        h2 {
           @include font-bold;
           color: $secondary;
         }
-        & p {
+        p {
           color: $tertiary;
           @include font-reg;
-          font-size: 0.9em;
+          font-size: 0.8em;
         }
       }
     }
@@ -138,10 +143,9 @@
     display: flex;
     justify-content: space-between;
     width: 3em;
-    
-    & a {
+
+    a {
       color: black;
     }
   }
 }
-

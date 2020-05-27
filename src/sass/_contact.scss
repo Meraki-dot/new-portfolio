@@ -38,7 +38,7 @@
 
 @media screen and (max-width: 920px) {
   #contact-main-container {
-    height: 100vh;
+    height: auto;
     & h1 {
       @include font-bold;
       font-size: 35px;
@@ -47,7 +47,7 @@
         @include outline;
 
         &:hover {
-          color: #788878;
+          color: black;
           text-shadow: none;
           cursor: pointer;
         }
@@ -56,9 +56,11 @@
     & #contact-first {
       margin-top: 3em;
       margin-bottom: 0em;
+      margin-left: 6.5%;
     }
     & .contact-page-container {
       margin-top: 2em; 
+      margin-left: 6.5%;
       & h1 {
         @include font-bold;
         font-size: 35px; 

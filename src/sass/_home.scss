@@ -4,10 +4,6 @@
   .main-container {
     position: relative;
     width: 100%;
-    max-width: 960px;
-    margin: 0 20%;
-    padding: 0 20px;
-
     .greetings-container {
       @include font-bold;
       font-size: 2em;
@@ -30,19 +26,6 @@
       height: auto;
       cursor: default;
 
-      span {
-        @include outline;
-        &:hover {
-          color: black;
-          cursor: default;
-          text-shadow: none;
-        }
-      }
-    }
-    #project-title {
-      @include font-bold;
-      margin: 14% 0 -3% 0;
-      font-size: 40px;
       span {
         @include outline;
         &:hover {
@@ -123,20 +106,6 @@
       margin-top: 8em;
       padding: 0 1em;
 
-      span {
-        @include outline;
-        &:hover {
-          color: black;
-          cursor: default;
-          text-shadow: none;
-        }
-      }
-    }
-
-    #project-title {
-      @include font-bold;
-      margin: 14% 0 0 6.2%;
-      font-size: 30px;
       span {
         @include outline;
         &:hover {

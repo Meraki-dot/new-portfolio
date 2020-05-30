@@ -21,7 +21,6 @@ const Home = () => {
           <span>creativity</span>, or <span>love</span>.
         </h2>
       </div>
-      <h1 id="project-title">projects</h1>
       <div className="column-of-work">
         <div offset="10" className="singular-work-container">
           <Link to="/dollface">

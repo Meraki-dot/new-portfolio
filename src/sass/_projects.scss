@@ -2,135 +2,419 @@
 
 @media screen and (min-width: 921px) {
   #project-container {
+    p {
+      font-size: 14px !important;
+      @include font-reg;
+      letter-spacing: 1.5px;
+      line-height: 30px;
+    }
     .project-title-container {
-      @include font-bold;
       display: flex;
       justify-content: center;
       align-items: center;
       height: auto;
-      cursor: default;
+
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 0;
+      }
     }
     .project-overview {
       @include center;
-      margin-left: 2em;
-    }
-    .project-goals {
-      margin-left: 2em;
-    }
-    .img-group {
-      display: flex;
-      height: auto;
-      width: 100%;
       flex-direction: column;
-      align-items: center;
-      margin: 60px 0 40px 0;
-    }
-    img {
-      width: inherit;
-    }
-    h1 {
-      font-size: 60px;
-    }
-    p {
-      @include font-reg;
-      padding: 0 5em 0 2em;
-      margin-bottom: -1em;
-      line-height: 1.75em;
-      letter-spacing: 0.075em;
-      font-size: 18px;
-    }
-    ol {
-      @include font-reg;
-      line-height: 1.75em;
-      letter-spacing: 0.075em;
-    }
-    .project-challenges {
-      height: auto;
-
-      .challenges-text {
-        width: 60em;
-        margin-left: 2em;
+      #quick-description {
+        margin-top: 1.5%;
+      }
+      #quick-summary {
+        margin-top: 3%;
+        padding: 0 10% !important;
+      }
+      div {
+        margin-top: 3%;
+        background-color: lightgrey;
+        padding: 5%;
+        img {
+          width: 100%;
+        }
       }
     }
-    .project-conclusion {
-      margin-bottom: 10em;
+    #summary-container {
+      @include center;
+      flex-direction: column;
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      #summary-detail-container {
+        flex-direction: column;
+        div {
+          @include center;
+          display: flex;
+          flex-direction: row;
+          width: 100%;
+          margin-bottom: 3%;
+          .first-col,
+          .second-col {
+            display: flex;
+            width: 50%;
+            align-items: center;
+            margin-top: 0;
+          }
+          .first-col {
+            justify-content: flex-end;
+            padding-right: 2%;
+            font-size: 24px !important;
+            color: darkgrey;
+          }
+          .second-col {
+            justify-content: flex-start;
+            padding-left: 2%;
+            margin-bottom: 2%;
+          }
+        }
+      }
+    }
+    #design-process {
+      display: flex;
+      flex-direction: column;
+      width: inherit;
 
+      h1 {
+        @include font-reg;
+        font-size: 36px;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        text-align: center;
+      }
       img {
         width: 100%;
       }
-      p {
-        margin-left: 2em;
+      .design_process_text {
+        margin-top: 3%;
       }
     }
-    .ending-space {
-      margin-bottom: 12em;
+    #user-research {
+      @include center;
+      flex-direction: column;
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      .quote {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 36px;
+      }
+      .subtitle {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 24px;
+        justify-self: flex-start;
+        width: 100%;
+      }
+      #takeaway-container {
+        background-color: lightgrey;
+        margin-top: 3%;
+        padding: 3% 8%;
+        @include center;
+      }
+      ul {
+        @include font-reg;
+        font-size: 18px;
+        letter-spacing: 1.5px;
+        line-height: 30px;
+        li {
+          margin: 50px 0;
+        }
+      }
+    }
+    #style-guide {
+      @include center;
+      flex-direction: column;
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      .subtitle {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 24px;
+        justify-self: flex-start;
+        width: 100%;
+      }
+      img,
+      video {
+        width: 100%;
+      }
+      .img-descriptions,
+      .vid-descriptions {
+        font-size: 8px;
+        width: 100%;
+        justify-self: flex-start;
+        color: grey;
+      }
+    }
+    .lessons_learned {
+      @include center;
+      flex-direction: column;
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+    }
+    .project_links {
+      @include center;
+      flex-direction: column;
+      margin-top: 6%;
+      h1 {
+        font-size: 36px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      a {
+        text-decoration: none;
+        :hover {
+          color: black;
+        }
+        p {
+          font-size: 24px !important;
+          text-align: center;
+        }
+      }
+    }
+    .top-button {
+      cursor: pointer;
+      margin-top: 8%;
+      text-decoration: none;
+      background: transparent;
+      border: none;
+      color: black;
+      outline: none;
+      :hover {
+        color: grey;
+      }
     }
   }
 }
 
 @media screen and (max-width: 920px) {
   #project-container {
+    p {
+      font-size: 13px !important;
+      @include font-reg;
+      letter-spacing: 1.5px;
+      line-height: 25px;
+    }
     .project-title-container {
-      @include font-bold;
       display: flex;
       justify-content: center;
-      align-items: flex-start;
-      font-size: 1.5em;
-      cursor: default;
-
+      align-items: center;
+      height: auto;
+      margin-top: 10%;
       h1 {
-        text-align: center;
+        font-size: 24px;
+        @include font-reg;
+        margin-bottom: 2%;
       }
     }
     .project-overview {
       @include center;
-      width: 100%;
-      display: block;
-      p {
-        margin-top: 0;
+      flex-direction: column;
+      padding: 5%;
+      #quick-description {
+        margin-top: -5%;
+        text-align: center;
+      }
+      #quick-summary {
+        margin-top: 3.5%;
+      }
+      div {
+        margin-top: 3%;
+        background-color: lightgrey;
+        padding: 5%;
+        img {
+          width: 100%;
+        }
       }
     }
-    .project-goals {
-      width: 100%;
-      display: block;
-    }
-    .img-group {
-      width: 100%;
-      height: auto;
+    #summary-container {
+      @include center;
       flex-direction: column;
+      padding: 5%;
+      h1 {
+        font-size: 24px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 15%;
+      }
+      #summary-detail-container {
+        flex-direction: column;
+        padding: 5%;
+        div {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          margin-bottom: 3%;
+          .first-col,
+          .second-col {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            margin-top: 0;
+          }
+          .first-col {
+            justify-content: flex-start;
+            padding-right: 2%;
+            font-size: 20px !important;
+            color: darkgrey;
+          }
+          .second-col {
+            justify-content: flex-start;
+            margin-bottom: 2%;
+          }
+        }
+      }
+    }
+    #design-process {
       display: flex;
-      margin: 50px 0 30px 0;
-    }
-    img {
-      // display: none;
-      max-width: 100%;
-    }
-    p {
-      @include font-reg;
-      padding: 0 1em 0 1.5em;
-      margin-bottom: -1em;
-      line-height: 1.75em;
-      letter-spacing: 0.075em;
-    }
-    ol {
-      @include font-reg;
-      line-height: 1.75em;
-      letter-spacing: 0.075em;
-    }
-    .project-challenges {
-      height: auto;
-      display: block;
-
-      .project-challenges-text {
+      flex-direction: column;
+      padding: 5%;
+      h1 {
+        @include font-reg;
+        font-size: 28px;
+        margin-bottom: 3%;
+        margin-top: 5%;
+        text-align: center;
+      }
+      img {
+        margin-top: 5%;
         width: 100%;
       }
+      .design_process_text {
+        margin-top: 8%;
+      }
     }
-    .project-conclusion {
-      margin-bottom: 10em;
-      display: block;
-      p {
-        margin: 0;
-        padding-top: 0;
+    #user-research {
+      @include center;
+      flex-direction: column;
+      padding: 5%;
+      h1 {
+        font-size: 28px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      .quote {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 28px;
+      }
+      .subtitle {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 20px;
+        justify-self: flex-start;
+        width: 100%;
+      }
+      #takeaway-container {
+        background-color: lightgrey;
+        margin-top: 3%;
+        padding: 3%;
+        @include center;
+      }
+      ul {
+        @include font-reg;
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        line-height: 30px;
+        li {
+          margin: 25px 0 25px 0;
+        }
+      }
+    }
+    #style-guide {
+      @include center;
+      flex-direction: column;
+      padding: 5%;
+      h1 {
+        font-size: 28px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      .subtitle {
+        @include font-reg;
+        color: darkgrey;
+        font-size: 20px;
+        justify-self: flex-start;
+        width: 100%;
+      }
+      img,
+      video {
+        width: 100%;
+      }
+      .img-descriptions,
+      .vid-descriptions {
+        font-size: 7px;
+        width: 100%;
+        justify-self: flex-start;
+        color: grey;
+      }
+    }
+    .lessons_learned {
+      margin-top: 6%;
+      @include center;
+      padding: 5%;
+      flex-direction: column;
+      h1 {
+        font-size: 28px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+    }
+    .project_links {
+      @include center;
+      flex-direction: column;
+      padding: 5%;
+      margin-top: 6%;
+      h1 {
+        font-size: 28px;
+        @include font-reg;
+        margin-bottom: 3%;
+        margin-top: 6%;
+      }
+      a {
+        text-decoration: none;
+        :hover {
+          color: black;
+        }
+        p {
+          font-size: 20px !important;
+          text-align: center;
+        }
+      }
+    }
+    .top-button {
+      cursor: pointer;
+      margin-top: 8%;
+      text-decoration: none;
+      background: transparent;
+      border: none;
+      color: black;
+      outline: none;
+      :hover {
+        color: grey;
       }
     }
   }

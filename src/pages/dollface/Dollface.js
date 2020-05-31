@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+//images
 import Dollface_design from "./Dollface_Design_Process.png";
 import Dollface_Color_Scheme from "./Dollface_Color_Scheme.png";
 import Dollface_font from "./Dollface_font.png";
@@ -7,19 +9,16 @@ import dollface_desktop_demo from "./dollface_desktop_demo.mp4";
 import mobile_low_fidelity from "./mobile_low_fidelity.png";
 import Dollface_mobile_demo from "./mobile_video_demo.mp4";
 import DollfaceHome from "./dollface-home.jpg";
-import DollfaceMobileMenu from "./dollface-mobile-menu.jpg";
-import DollfaceServices from "./dollface-services.jpg";
 import Navbar from "../../General/Navbar";
 
 const Dollface = () => {
-
-  const onClick = e => {
+  const onClick = (e) => {
     e.preventDefault();
     window.scroll({
       top: 0,
       left: 0,
-      behavior: "smooth"
-    })
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -34,19 +33,22 @@ const Dollface = () => {
         </p>
         <p id="quick-summary">
           Book your next eyebrow tattoo appointment with an amazing, independent
-          artist at Dollface Permanent Makeup, a business operating in
-          Anaheim, CA.
+          artist at Dollface Permanent Makeup, a business operating in Anaheim,
+          CA.
         </p>
         <div>
-          <img src={DollfaceHome} />
+          <img src={DollfaceHome} alt="Dollface PMU homepage" />
         </div>
+        <p className="img-descriptions">
+          <em>Dollface PMU's homepage</em>
+        </p>
       </div>
       <div id="summary-container">
         <h1>Summary</h1>
         <div id="summary-detail-container">
           <div>
             <p className="first-col">Duration</p>
-            <p className="second-col">4 weeks</p>
+            <p className="second-col">12 weeks</p>
           </div>
           <div>
             <p className="first-col">Theme</p>
@@ -60,6 +62,7 @@ const Dollface = () => {
               Low and high fidelity wireframes <br />
               Prototype <br />
               User testing <br />
+              Front end development <br />
               Deployment <br />
             </p>
           </div>
@@ -101,22 +104,22 @@ const Dollface = () => {
         <h1>Design Process</h1>
         <img src={Dollface_design} alt="design process for dollface" />
         <p className="design_process_text">
-          In order to design Dollface PMU's website, I followed the design
-          process detailed above. I first had to identify what problems and
-          issues existed due to the business not having a website. In order to
-          discover solutions to those problems, research was conducted and
-          sketches of possible designs were created. The design and prototype
-          was developed through Adobe XD. Lastly, the website went through user
-          testing to gain user feedback about the ease of use and the clarity of
-          information of the website.
+          To design Dollface PMU's website, I followed the design process
+          detailed above. I first had to identify what problems and issues
+          existed due to the business not having a website. To discover
+          solutions to those problems, research was conducted and sketches of
+          possible designs were created. The design and prototype were developed
+          through Adobe XD. Lastly, the website went through user testing to
+          gain user feedback about the ease of use and the clarity of
+          information on the website.
         </p>
       </div>
       <div id="user-research">
         <h1>User Research</h1>
         <p>
-          Individuals were screened through a multiple choice survey to create a
+          Individuals were screened through a multiple-choice survey to create a
           pool of testers that were interested in beauty, searched
-          beauty-related products and/or services once every few weeks. <br />
+          beauty-related products, and/or services once every few weeks. <br />
           <strong>Goal:</strong>{" "}
           <em>
             Find and pool an audience that had relevant interests in Dollface
@@ -128,8 +131,8 @@ const Dollface = () => {
           total of 7 volunteered to be interviewed via phone call. It was vital
           to the project that I found what users expected when first visiting a
           beauty service website, what information they wanted to see quickly
-          and conveniently and how much information they really needed when
-          reviewing services. <br />
+          and conveniently, and how much information they needed when reviewing
+          services. <br />
           <strong>Goal:</strong>{" "}
           <em>
             Identify needs of users to create a fluid and easy-to-understand
@@ -153,19 +156,19 @@ const Dollface = () => {
           focused on what I'm reading."
         </h4>
         <p>
-          Users frequently compained that websites with similar offerings had
-          readability issues due to the cramped kerneling and line heights of
-          the texts. This is a very big issue as services like these have
-          multiple steps of preparation and aftercare that the client is
-          responsible for. Additionally, for clients to make an informed
-          decision text must be read without inducing stress on the user.
+          Users frequently complained that websites with similar offerings had
+          readability issues due to the cramped kerning and line heights of the
+          texts. This is a very big issue as services like these have multiple
+          steps of preparation and aftercare that the client is responsible for.
+          Additionally, for clients to make an informed decision text must be
+          read without inducing stress on the user.
         </p>
         <h4 className="quote">
           "I think my main issue with websites is when their menus have a
           million submenus that I need to go through."
         </h4>
         <p>
-          Submenus are popular in beauty websites because of how many services
+          Submenus are popular on beauty websites because of how many services
           are available. However, most users expressed frustrations with this
           style due to the overwhelming nature of it.
         </p>
@@ -209,12 +212,16 @@ const Dollface = () => {
         </p>
         <h2 className="subtitle">Typography</h2>
         <p>
-          The two fonts that we decided to use were Helvetica and neue Haas
+          The two fonts that we decided to use were Helvetica and Neue Haas
           Unica. The repeating sans combination worked perfectly for the website
           to emphasize clarity and readability, as well as, make the website
           have a clean and modern feeling.
         </p>
-        <img src={Dollface_font} alt="brand typography" />
+        <img
+          className="typography"
+          src={Dollface_font}
+          alt="brand typography"
+        />
         <p className="img-descriptions">
           <em>Dollface PMU typography</em>
         </p>
@@ -235,7 +242,7 @@ const Dollface = () => {
           <br />
           The navigation system is clearly seen at the top and organized the way
           the user should logically understand information. Users should know
-          policies, general preparation and aftercare procedures, then
+          policies, general preparation, and aftercare procedures, then
           descriptions of services and finally create an appointment. This
           enables users to be fully informed before booking which provides the
           users clearly defined expectations.
@@ -244,24 +251,28 @@ const Dollface = () => {
           src={Dollface_low_fidelity}
           alt="dollface low fidelity wireframe"
         />
-        <p className="img-descriptions">
+        <p className="img-descriptions" id="dollface_low_fidelity">
           <em>Dollface PMU low fidelity desktop wireframe</em>
         </p>
-        <video
-          loop="true"
-          autoplay="autoplay"
-          alt="dollface desktop video demo"
-          src={dollface_desktop_demo} type="video/mp4"
-          muted
-          playsinline="1"
-        >
-        </video>
+        <div className="vid-container">
+          <video
+            loop="true"
+            autoplay="autoplay"
+            alt="dollface desktop video demo"
+            src={dollface_desktop_demo}
+            type="video/mp4"
+            muted
+            playsinline="1"
+            preload="none"
+            poster="img/cover.jpg"
+          ></video>
+        </div>
         <p className="vid-descriptions">
           <em>Dollface PMU desktop video demo</em>
         </p>
         <h2 className="subtitle">Prototyping - Mobile</h2>
         <p>
-          On the mobile front, I wanted the website to still hold true to its
+          On the mobile front, I wanted the website to still hold onto its
           identity while adapting to the smaller screen of a smartphone. The
           menu was collapsed into a hamburger menu that has a fixed position so
           that users can always access the menu when required.
@@ -270,12 +281,26 @@ const Dollface = () => {
           src={mobile_low_fidelity}
           alt="dollface low fidelity mobile wireframe"
         />
-        <br />
-        <br />
         <p className="img-descriptions">
           <em>Dollface PMU low fidelity mobile wireframe</em>
         </p>
-        <div></div>
+        <div className="vid-container">
+          <video
+            loop="true"
+            autoplay="autoplay"
+            alt="dollface desktop video demo"
+            src={Dollface_mobile_demo}
+            type="video/mp4"
+            muted
+            playsinline="1"
+            className="mobile-video"
+            preload="none"
+            poster="img/cover.jpg"
+          ></video>
+        </div>
+        <p className="vid-descriptions">
+          <em>Dollface PMU mobile video demo</em>
+        </p>
         <div className="lessons_learned">
           <h1>Lessons Learned</h1>
           <h2 className="subtitle">User Research</h2>
@@ -283,30 +308,38 @@ const Dollface = () => {
             Research via over the phone interviews were key to this project's
             success. The interviews unlocked a deep lake of insight that allowed
             myself to formulate a website that locked on to user painpoints and
-            create solutions that were intuitive and pleaseing.
+            create solutions that were intuitive and pleasing.
           </p>
           <h2 className="subtitle">User Testing</h2>
           <p>
             User testing ultimately helped me to design for people and not
             myself or my client. It's very easy for me to think that people
-            think like I do but through user testing, the objective fact is
-            that, I don't speak for the entire populus. Having feedback of what
-            worked and what didn't was an immense help to finishing the final
+            think as I do but through user testing, the objective fact is that,
+            I don't speak for the entire populace. Having feedback on what
+            worked and what didn't was an immense help in finishing the final
             product.
           </p>
           <div className="project_links">
             <h1>Links</h1>
-            <a className="subtitle" href="https://dollfacepmu.com" target="_blank">
+            <a href="https://dollfacepmu.com" target="_blank">
               <p>www.dollfacepmu.com</p>
             </a>
-            <a className="subtitle" href="https://github.com/Meraki-dot/dollfacepmu" target="_blank">
+            <a href="https://github.com/Meraki-dot/dollfacepmu" target="_blank">
               <p>github</p>
             </a>
           </div>
         </div>
-        <button className="top-button" onClick={onClick}>
-          <p>to the top</p>
-        </button>
+        <div className="bottom-nav">
+          <Link to="/pabl" className="prev-button">
+            <p>Pure Artistry</p>
+          </Link>
+          <button className="top-button" onClick={onClick}>
+            <p>top</p>
+          </button>
+          <Link to="/angela_contreras" className="next-button">
+            <p>Angela Contreras</p>
+          </Link>
+        </div>
       </div>
     </div>
   );

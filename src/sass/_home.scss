@@ -1,9 +1,11 @@
 @import "./themes/theme";
 
 @media screen and (min-width: 921px) {
-  .main-container {
+  #home-container {
     position: relative;
     width: 100%;
+    margin: 0 20%;
+    max-width: 960px;
     .greetings-container {
       @include font-bold;
       font-size: 2em;

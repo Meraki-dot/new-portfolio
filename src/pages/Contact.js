@@ -9,8 +9,8 @@ const Contact = () => {
           <h1 id="contact-first">
             check out my{" "}
             <a
-              target="_blank"
-              href="https://1drv.ms/b/s!AnooLTq-V2ADqB_7IqKPOMsAhorj"
+              href="/Resume.pdf"
+              download="/Resume.pdf"
             >
               resume
             </a>

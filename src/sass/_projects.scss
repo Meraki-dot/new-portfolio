@@ -10,7 +10,7 @@
     p {
       font-size: 14px !important;
       @include font-reg;
-      letter-spacing: 1.5px;
+      letter-spacing: 0.75px;
       line-height: 30px;
     }
     .nav-container {
@@ -116,7 +116,8 @@
         margin-bottom: 3%;
         margin-top: 6%;
       }
-      .research_point, .quote_explanation {
+      .research_point,
+      .quote_explanation {
         width: 100%;
         justify-self: flex-start;
       }
@@ -150,7 +151,7 @@
       ul {
         @include font-reg;
         font-size: 18px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.75px;
         line-height: 30px;
         li {
           margin: 50px 0;
@@ -183,6 +184,9 @@
         img,
         video {
           width: 100%;
+        }
+        video {
+          border: lightgrey 1px solid;
         }
         .mobile-video {
           max-height: 500px;
@@ -267,7 +271,8 @@
           color: grey;
         }
       }
-      .prev-button, .next-button {
+      .prev-button,
+      .next-button {
         width: 20%;
         text-align: center;
       }
@@ -284,7 +289,7 @@
     p {
       font-size: 13px !important;
       @include font-reg;
-      letter-spacing: 1.5px;
+      letter-spacing: 0.75px;
       line-height: 25px;
     }
     .project-title-container {
@@ -407,13 +412,13 @@
       #takeaway-container {
         background-color: lightgrey;
         margin-top: 3%;
-        padding: 3%;
+        padding: 3% 10%;
         @include center;
       }
       ul {
         @include font-reg;
         font-size: 15px;
-        letter-spacing: 1.5px;
+        letter-spacing: 0.75px;
         line-height: 30px;
         li {
           margin: 25px 0 25px 0;
@@ -441,6 +446,9 @@
       video {
         width: 100%;
       }
+      video {
+        border: lightgrey 1px solid;
+      }
       .img-descriptions,
       .vid-descriptions {
         font-size: 7px;
@@ -458,6 +466,11 @@
         @include font-reg;
         margin-bottom: 3%;
         margin-top: 6%;
+      }
+    }
+    .comparison-container {
+      img {
+        border: lightgrey solid 1px;
       }
     }
     .project_links {
@@ -506,7 +519,8 @@
           color: grey;
         }
       }
-      .prev-button, .next-button {
+      .prev-button,
+      .next-button {
         width: 20%;
         text-align: center;
       }

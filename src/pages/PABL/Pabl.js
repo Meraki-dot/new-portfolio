@@ -135,9 +135,6 @@ const Pabl = () => {
         </p>
         <br />
         <br />
-        <p className="img-descriptions">
-          <em>Pure Artistry's current homepage</em>
-        </p>
         <h4 className="quote">
           "The website is confusing, there just seems to be no cohesion."
         </h4>
@@ -209,7 +206,7 @@ const Pabl = () => {
         </p>
         <h2 className="subtitle">Color</h2>
         <p>
-          Pastel colors were chose to welcome users to their "happiest moment."
+          Pastel colors were chosen to welcome users to their "happiest moment."
           The colors encourages users to browse through the joyful images of
           celebration and to click on other links to discover what services the
           business provides. The comforting colors allow users to be open minded
@@ -323,14 +320,14 @@ const Pabl = () => {
           </div>
         </div>
         <div className="bottom-nav">
-          <Link to="/dollface" className="prev-button">
-            <p>Dollface PMU</p>
+          <Link to="/angela_contreras" className="prev-button">
+            <p>Angela Contreras</p>
           </Link>
           <button className="top-button" onClick={onClick}>
             <p>top</p>
           </button>
-          <Link to="/pabl" className="next-button">
-            <p>Pure Artistry</p>
+          <Link to="/dollface" className="next-button">
+            <p>Dollface PMU</p>
           </Link>
         </div>
       </div>

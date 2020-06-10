@@ -9,10 +9,10 @@ const Contact = () => {
           <h1 id="contact-first">
             check out my{" "}
             <a
-              href="/Resume.pdf"
-              download="/Resume.pdf"
+              href="/CV.pdf"
+              download="/CV.pdf"
             >
-              resume
+              cv/resume
             </a>
             ,{" "}
             <a href="https://linkedin.com/in/meraki-dot" target="_blank">

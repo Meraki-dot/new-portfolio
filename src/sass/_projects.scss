@@ -2,19 +2,16 @@
 
 @media screen and (min-width: 921px) {
   #project-container {
-    padding: 0 15%;
+    padding: 0 20%;
     .img-descriptions,
     .vid-descriptions {
       margin-bottom: 7%;
     }
     p {
-      font-size: 14px !important;
+      font-size: 16px !important;
       @include font-reg;
       letter-spacing: 0.75px;
-      line-height: 30px;
-    }
-    .nav-container {
-      padding: 0 8%;
+      line-height: 40px;
     }
     .project-title-container {
       display: flex;
@@ -35,7 +32,6 @@
       }
       #quick-summary {
         margin-top: 3%;
-        padding: 0 15% !important;
       }
       div {
         margin-top: 3%;
@@ -84,7 +80,7 @@
           .second-col {
             justify-content: flex-start;
             padding-left: 2%;
-            margin-bottom: 1.5%;
+            margin-bottom: 1.75%;
           }
         }
       }
@@ -124,9 +120,10 @@
       .quote {
         @include font-reg;
         color: darkgrey;
-        font-size: 36px;
+        font-size: 28px;
         width: 100%;
         justify-self: flex-start;
+        margin: 5% 0;
       }
       .subtitle {
         @include font-reg;

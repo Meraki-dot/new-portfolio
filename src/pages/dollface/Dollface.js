@@ -116,62 +116,65 @@ const Dollface = () => {
       </div>
       <div id="user-research">
         <h1>User Research</h1>
-        <p>
-          Individuals were screened through a multiple-choice survey to create a
-          pool of testers that were interested in beauty, searched
-          beauty-related products, and/or services once every few weeks. <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Find and pool an audience that had relevant interests in Dollface
-            PMU's services.
-          </em>
-        </p>
-        <p>
-          There were a total of 15 individuals that passed the screening. A
-          total of 7 volunteered to be interviewed via phone call. It was vital
-          to the project that I found what users expected when first visiting a
-          beauty service website, what information they wanted to see quickly
-          and conveniently, and how much information they needed when reviewing
-          services. <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Identify needs of users to create a fluid and easy-to-understand
-            navigation system.
-          </em>
-        </p>
-        <h4 className="quote">
-          "I expect to be able to book an appointment as soon as I load the
-          page."
-        </h4>
-        <p>
-          It was very apparent that there were users who appreciated a blatantly
-          quick and easy way to book without any distractions. Many users that
-          shared the same sentiment all generally stated that they already knew
-          what they wanted because they've had the service done before and did
-          not need too much information.
-        </p>
-        <h4 className="quote">
-          "Honestly, it's the worst when these kinds of websites are just
-          cramped with words. It's an eyesore and makes it really hard to stay
-          focused on what I'm reading."
-        </h4>
-        <p>
-          Users frequently complained that websites with similar offerings had
-          readability issues due to the cramped kerning and line heights of the
-          texts. This is a very big issue as services like these have multiple
-          steps of preparation and aftercare that the client is responsible for.
-          Additionally, for clients to make an informed decision text must be
-          read without inducing stress on the user.
-        </p>
-        <h4 className="quote">
-          "I think my main issue with websites is when their menus have a
-          million submenus that I need to go through."
-        </h4>
-        <p>
-          Submenus are popular on beauty websites because of how many services
-          are available. However, most users expressed frustrations with this
-          style due to the overwhelming nature of it.
-        </p>
+        <div>
+          <p>
+            Individuals were screened through a multiple-choice survey to create
+            a pool of testers that were interested in beauty, searched
+            beauty-related products, and/or services once every few weeks.{" "}
+            <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Find and pool an audience that had relevant interests in Dollface
+              PMU's services.
+            </em>
+          </p>
+          <p>
+            There were a total of 15 individuals that passed the screening. A
+            total of 7 volunteered to be interviewed via phone call. It was
+            vital to the project that I found what users expected when first
+            visiting a beauty service website, what information they wanted to
+            see quickly and conveniently, and how much information they needed
+            when reviewing services. <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Identify needs of users to create a fluid and easy-to-understand
+              navigation system.
+            </em>
+          </p>
+          <h4 className="quote">
+            "I expect to be able to book an appointment as soon as I load the
+            page."
+          </h4>
+          <p>
+            It was very apparent that there were users who appreciated a
+            blatantly quick and easy way to book without any distractions. Many
+            users that shared the same sentiment all generally stated that they
+            already knew what they wanted because they've had the service done
+            before and did not need too much information.
+          </p>
+          <h4 className="quote">
+            "Honestly, it's the worst when these kinds of websites are just
+            cramped with words. It's an eyesore and makes it really hard to stay
+            focused on what I'm reading."
+          </h4>
+          <p>
+            Users frequently complained that websites with similar offerings had
+            readability issues due to the cramped kerning and line heights of
+            the texts. This is a very big issue as services like these have
+            multiple steps of preparation and aftercare that the client is
+            responsible for. Additionally, for clients to make an informed
+            decision text must be read without inducing stress on the user.
+          </p>
+          <h4 className="quote">
+            "I think my main issue with websites is when their menus have a
+            million submenus that I need to go through."
+          </h4>
+          <p>
+            Submenus are popular on beauty websites because of how many services
+            are available. However, most users expressed frustrations with this
+            style due to the overwhelming nature of it.
+          </p>
+        </div>
         <h2 className="subtitle">Key Takeaways</h2>
         <div id="takeaway-container">
           <ul>
@@ -194,17 +197,18 @@ const Dollface = () => {
         <h1>Style Guide</h1>
         <p>
           In the style guide, I chose colors and typography that would both be
-          modern and professional to match the brand. I kept keywords in mind so
-          that it would be easier to create the design.
+          modern and professional to match the brand. I kept keywords such as,
+          clean, bold and minimalist in mind so that it would be easier to
+          create the design.
         </p>
         <h2 className="subtitle">Color</h2>
         <p>
           Dollface PMU is a brand that prides itself on how straight forward and
-          clean it is, I wanted to strengthen the minimalist but powerful
-          identity of the brand by using only black and white. The mostly
-          monochromatic style would provide users an environment that was free
-          of distraction that made reading and studying information a less
-          strenuous task.
+          sharp their servecs are, I wanted to strengthen the minimalist but
+          powerful identity of the brand by using only black and white. The
+          black and white style would provide users an environment that was free
+          of distraction that made reading and studying information a more
+          fucused but less strenuous task.
         </p>
         <img src={Dollface_Color_Scheme} alt="brand colors" />
         <p className="img-descriptions">

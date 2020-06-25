@@ -103,80 +103,84 @@ const Pabl = () => {
           that I could identify what the current pain points were of the
           website. Research began with a comment based survey asking for
           people's opinions of the current website. After collecting responses,
-          I recorded what words were commonly associated with the live website
-          and what words users felt were commonly associated with a successful
+          I recorded words that were commonly associated with the live website
+          and words that users felt were commonly associated with a successful
           website with similar services.
         </p>
       </div>
       <div id="user-research">
         <h1>User Research</h1>
-        <p className="research_point">
-          I used a comment based survey to discover what users didn't like about
-          the current website and what they would like to see. <br />
-          <strong>Goal:</strong>{" "}
-          <em>Identify user pain points of the website.</em>
-        </p>
-        <p className="research_point">
-          In the same survey, I asked users to write down what they felt like
-          was missing in the current website. <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Discover essential elements of a wedding/event planning website.
-          </em>
-        </p>
-        <p className="research_point">
-          Lastly, users were asked to write down what made a website a pleasure
-          to use. <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Find out what users deem to be enjoyable functions or styles in a
-            website.
-          </em>
-        </p>
-        <br />
-        <br />
-        <h4 className="quote">
-          "The website is confusing, there just seems to be no cohesion."
-        </h4>
-        <p className="quote_explanation">
-          This comment was the most common opinion of the current website. When
-          a user visits the website they aren't at the homepage but immediately
-          get's routed the makeup page. It's quite a jarring experience and it
-          confuses the user on where to even begin. Additionally, the fact the
-          user is not taken to the homepage is very bizzare and users expressed
-          that, that was one of the main reasons why they couldn't understand
-          the website's flow.
-        </p>
-        <h4 className="quote">
-          "The navigation is really frustrating. When I click on it I expected
-          to take me somewhere. I know there was a drop down menu but I still
-          expect to get taken somewhere, maybe an overview of that page."
-        </h4>
-        <p className="quote_explanation">
-          The navigation menu interactions did not meet users' expectations and
-          created an awkward experience. When a user gets visual feedback such
-          as a change of color, they expect that button to not only be clickable
-          but to take them somewhere related to that navigation item.
-        </p>
-        <h4 className="quote">
-          "Service-based websites need to have a clear flow."
-        </h4>
-        <p className="quote_explanation">
-          Users all generally agreed that a website without a good flow of
-          information and direction, would mean they would leave the website for
-          something better.
-        </p>
-        <h4 className="quote">
-          "When I think of weddings, I think of warmth, invitations, flowers and
-          love. When I think of wedding planning, I think of security and
-          trust."
-        </h4>
-        <p className="quote_explanation">
-          Weddings and event planning have a certain persona that people
-          naturally gravitate towards. Being warm, inviting, and secure all add
-          to the user's browsing experience and influences their decision
-          whether to book services or not.
-        </p>
+        <div>
+          <p>
+            I used a comment based survey to discover what users didn't like
+            about the current website and what they would like to see changed.{" "}
+            <br />
+            <strong>Goal:</strong>{" "}
+            <em>Identify user pain points of the website.</em>
+          </p>
+          <p>
+            In the same survey, I asked users to write down what they felt like
+            was missing in the current website. <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Discover essential elements of a wedding/event planning website.
+            </em>
+          </p>
+          <p>
+            Lastly, users were asked to write down what made a website a
+            pleasure to use. <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Find out what users deem to be enjoyable functions or styles in a
+              website.
+            </em>
+          </p>
+          <br />
+          <br />
+          <h4 className="quote">
+            "The website is confusing, there just seems to be no cohesion."
+          </h4>
+          <p>
+            This comment was the most common opinion of the current website.
+            When a user visits the website they aren't at the homepage but
+            immediately get routed to the makeup page. It's quite a jarring
+            experience and it confused users on where to even begin.
+            Additionally, the fact that users are not taken to the homepage is
+            very bizzare and users expressed that, that was one of the main
+            reasons why they couldn't understand the website's flow.
+          </p>
+          <h4 className="quote">
+            "The navigation is really frustrating. When I click on it I expected
+            to take me somewhere. I know there was a drop down menu but I still
+            expect to get taken somewhere, maybe an overview of that page."
+          </h4>
+          <p>
+            The navigation menu interactions did not meet users' expectations
+            and created an awkward experience. When a user gets visual feedback
+            such as a change of color, they expect that button to not only be
+            clickable but to take them somewhere related to that navigation
+            item.
+          </p>
+          <h4 className="quote">
+            "Service-based websites need to have a clear flow."
+          </h4>
+          <p>
+            Users generally agreed that a website without a good flow of
+            information and direction, would mean they would leave the website
+            for something better.
+          </p>
+          <h4 className="quote">
+            "When I think of weddings, I think of warmth, invitations, flowers
+            and love. When I think of wedding planning, I think of security and
+            trust."
+          </h4>
+          <p>
+            Weddings and event planning have a certain persona that people
+            naturally gravitate towards. Being warm, inviting, and secure all
+            add to the user's browsing experience and influences their decision
+            whether to book services or not.
+          </p>
+        </div>
         <h2 className="subtitle">Key Takeaways</h2>
         <div id="takeaway-container">
           <ul>
@@ -198,19 +202,19 @@ const Pabl = () => {
       <div id="style-guide">
         <h1>Style Guide</h1>
         <p>
-          For the style guide, I chose colors that would invoke warmth and feels
-          inviting. Pastel colors were selected to have a website that wasn't
-          "in-your-face" but was charming and welcoming. I chose a Serif font
-          for headers and a Sans font for the body to enable users to quickly
-          distinguish where to begin browsing.
+          For the style guide, I chose colors that would invoke warmth and
+          feelings of welcoming. Pastel colors were selected to have a website
+          that wasn't "in-your-face" but was charming and inviting. I chose a
+          Serif font for headers and a Sans font for the body to enable users to
+          quickly distinguish where to begin browsing.
         </p>
         <h2 className="subtitle">Color</h2>
         <p>
-          Pastel colors were chosen to welcome users to their "happiest moment."
-          The colors encourages users to browse through the joyful images of
-          celebration and to click on other links to discover what services the
-          business provides. The comforting colors allow users to be open minded
-          and positive as they browse.
+          I selected pastel colors to produce a less invasive and
+          confrontational environmentto for users to welcome them to their
+          "happiest moment." The colors were used to also enhance the joyful
+          images of celebration which hypothetically would encourage users to be
+          glad, positive and open-minded as they browsed.
         </p>
         <img src={Colors} alt="brand colors" />
         <p className="img-descriptions">
@@ -221,7 +225,7 @@ const Pabl = () => {
           Playfair Display was used for the headers to grab the user's gaze and
           to set the flow for their browsing. The playful serifs produced a
           casual, non-business like vibe which worked perfectly for the
-          website's serviecs. The body texts utilized the sans font, Raleway to
+          website's services. The body texts utilized the sans font, Raleway to
           modernize the website and continue the theme of warm welcoming and
           easy reading. I also wrote down words that captured the aesthetic of
           the website to focus and drive in the goal of the design into the
@@ -237,12 +241,11 @@ const Pabl = () => {
         </p>
         <h2 className="subtitle">Prototyping - Desktop</h2>
         <p>
-          I wanted the hero message to not be blown up like they normally are to
-          set an unburdensome experience. Instead, the hero panel was comprised
-          of medium-sized headers and two boxes that held the primary call to
-          actions. I also wanted to somehow put a large volume of color without
-          overwhelming the user. My solution is shown in the high fidelity
-          mockup.
+          I wanted the text in the hero panel to not be a singular blown up
+          slogan like most websites. Instead, the hero panel was comprised of
+          medium-sized headers and two boxes that were the primary call to
+          actions. The point was to have the user feel as if they were having
+          options on where to go and what to look at.
         </p>
         <img src={Low_fidelity} alt="Pure Artistry's low fidelity wireframe" />
         <p className="img-descriptions" id="pure_artistry_fidelity">
@@ -250,10 +253,10 @@ const Pabl = () => {
         </p>
         <p>
           Color was used in large accent boxes. The pastel colors of the boxes
-          provided a playfulness and comfort that worked perfectly for the
-          website's thematic. The idea was to use these boxes as a way to
-          present wedding planning as an exciting, joyful and pleasing time that
-          anyone should look forward to.
+          provided an air of playfulness and comfort to the website that worked
+          perfectly for the brand's thematic. The idea was to use these boxes
+          as a way to present wedding planning as an exciting, joyful and
+          pleasing time that people should look forward to.
           <br />
           <br />
           Using Photoshop, images were changed to match the color scheme of the
@@ -263,25 +266,21 @@ const Pabl = () => {
           box accents.
           <br />
           <br />
-          In each service section, there was a header that gave a quick way for
-          users to understand what the page was about but also a quote from Pure
-          Artistry. Users explained that they wanted to feel a sense of trust
-          when booking for an event planner of any sort. The quote provided some
+          In each service section, there was a header that gave users quick insights of what the page was about. Next to the header, a quote from Pure
+          Artistry was placed. Users explained that they wanted to feel a sense of trust
+          when booking for an event planner of any sort and the quote provided some
           personality for a business that is initially foreign to the user.
-          Through the quote, the website presented a more personable service
-          rather than a purely professional one that would induce feelings of
-          trust in a user.
+          Through the quote, the website presented a more personable service to ilicit feelings of trust in the user.
           <br />
           <br />
-          The navigation system was setup in a way where user would always have
-          access to it due to its fixed scroll position and show a clear,
-          understandable flow for the user to follow. The website needed to be
+          The navigation system was setup in a way where users would always have
+          access to it due to its fixed scroll position. I wanted to show a clear,
+          understandable flow for users to follow so they could discover information quickly and book comfortably. The website needed to be
           personable and the best way for it present itself in that way was to
-          showcase who the user would potentially be working with. Meet the team
+          showcase who the user would potentially be working with. In the navigation bar, "Meet the Team"
           was first as a way to informally introduce the team and have users
-          feel as if they are booking with someone they already knew. Right
-          after that, the primary service of the business of makeup followed
-          after, then event planning then their gallery.
+          feel as if they are booking with people they already knew. Right
+          after that, the primary service of the business: makeup, then event planning then their gallery which linked to their Instagram.
         </p>
         <img
           src={High_fidelity}
@@ -295,7 +294,7 @@ const Pabl = () => {
           <h2 className="subtitle">Empthasize with Users</h2>
           <p>
             Interestingly enough, part of being objective in UX is to be
-            emotional. Touching on the emotional frustration that come with UX
+            emotional. Touching on the emotional frustration that comes with UX
             issues is imperative to produce user friendly UX. In this case, an
             outdated, jarring navigation experience and unprofressional and cold
             thematic detered users from using the current iteration of Pure
@@ -306,7 +305,7 @@ const Pabl = () => {
           </p>
           <div className="comparison-container">
             <div>
-              <img src={live_website}  alt="PABL current homepage" />
+              <img src={live_website} alt="PABL current homepage" />
               <p className="img-descriptions">
                 <em>Pure Artistry's current homepage</em>
               </p>

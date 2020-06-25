@@ -8,6 +8,11 @@
   font-weight: 700;
 }
 
+@mixin font-test {
+  font-family: "Lusitana", serif;
+  font-weight: 400;
+}
+
 @mixin outline {
   text-shadow: -1px -1px 0 $secondary, 1px -1px 0 $secondary, -1px 1px 0 $secondary, 1px 1px 0 $secondary;
   color: $primary;

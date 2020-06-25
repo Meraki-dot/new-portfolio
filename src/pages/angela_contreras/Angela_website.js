@@ -23,7 +23,6 @@ const Angela_website = () => {
 
   return (
     <div className="main-container" id="project-container">
-      <Navbar />
       <div className="project-title-container">
         <h1>Angela Contreras Portfolio</h1>
       </div>
@@ -119,51 +118,53 @@ const Angela_website = () => {
       </div>
       <div id="user-research">
         <h1>User Research</h1>
-        <p>
-          The first stage of research was concentrated on competitive research.
-          Moodboards were created, and other similar websites were analyzed.{" "}
-          <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Identify what color palettes, design styles, and website flows other
-            similar portfolios were using.
-          </em>
-        </p>
-        <p>
-          A total of 6 individuals volunteered to be interviewed via phone call.
-          It was vital to the project that I what contributed to a pleasurable
-          image viewing experience. The interviews conducted provided a clearer
-          understanding of what gave people an easy-going and enjoying browsing
-          experience. <br />
-          <strong>Goal:</strong>{" "}
-          <em>
-            Unearth elements that people felt were essential for reading a story
-            and browsing images.
-          </em>
-        </p>
-        <h4 className="quote">
-          "If I am expected to read as if I'm reading a book, then it needs to
-          feel like a book."
-        </h4>
-        <p>
-          Although this explanation is vague, it still provided insight into
-          what users deemed valuable when visiting a site that has the intent of
-          telling a story. Creating an environment that is akin to that of
-          reading a physical book was a common statement across all those who
-          were interviewed.
-        </p>
-        <h4 className="quote">
-          "My eyes hurt when the colors of the websites are harsh. Very white
-          and blue websites make me feel like I need to read in a rush so that
-          my eyes don't hurt too much."
-        </h4>
-        <p>
-          Users commented on a trend in small businesses or local websites. They
-          are all simply too white. Many people know that blue light is a
-          leading reason for eye strain and when telling a story, the text and
-          images need to be presented on a canvas that allows the eyes to relax
-          and immerse.
-        </p>
+        <div className="research-text-container">
+          <p>
+            The first stage of research was concentrated on competitive
+            research. Moodboards were created, and other similar websites were
+            analyzed. <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Identify what color palettes, design styles, and website flows
+              other similar portfolios were using.
+            </em>
+          </p>
+          <p>
+            A total of 6 individuals volunteered to be interviewed via phone
+            call. It was vital to the project that I what contributed to a
+            pleasurable image viewing, gallery-browsing experience. The
+            interviews conducted provided a clearer understanding of what gave
+            people an easy-going and enjoying browsing experience. <br />
+            <strong>Goal:</strong>{" "}
+            <em>
+              Unearth elements that people felt were essential for reading a
+              story and browsing images.
+            </em>
+          </p>
+          <h4 className="quote">
+            "If I am expected to read as if I'm reading a book, then it needs to
+            feel like a book."
+          </h4>
+          <p>
+            Although this explanation is vague, it still provided insight into
+            what users deemed valuable when visiting a site that has the intent
+            of telling a story. Creating an environment that is akin to that of
+            reading a physical book was a common statement across all those who
+            were interviewed.
+          </p>
+          <h4 className="quote">
+            "My eyes hurt when the colors of the websites are harsh. Very white
+            and blue websites make me feel like I need to read in a rush so that
+            my eyes don't hurt too much."
+          </h4>
+          <p>
+            Users commented on a trend in small businesses or local websites:
+            They are all too white. Many people know that blue light is a
+            leading reason for eye strain and when telling a story, the text and
+            images need to be presented on a canvas that allows the eyes to
+            relax and be immersed.
+          </p>
+        </div>
         <h2 className="subtitle">Key Takeaways</h2>
         <div id="takeaway-container">
           <ul>
@@ -186,9 +187,9 @@ const Angela_website = () => {
         <h1>Style Guide</h1>
         <p>
           For Angela's style guide, I chose colors that would be warm and easy
-          on the eyes. The colors were chosen to create a vintage-like
-          environment for the user. I chose a Serif font for headers and a Sans
-          font for the body to enable users to quickly distinguish where to
+          on the eyes. The colors were chosen to create a vintage-like, worn
+          paper environment for the user. I chose a Serif font for headers and a
+          Sans font for the body to enable users to quickly distinguish where to
           begin browsing.
         </p>
         <h2 className="subtitle">Color</h2>
@@ -199,10 +200,10 @@ const Angela_website = () => {
           enough to not be a distraction but to also have enough contrast to be
           noticeable. Pure black was used for elements such as artwork titles to
           help readers immediately locate a starting point. The off white,
-          greyish background was used to emulate paper with a reading light
-          shining on it to invoke a feeling of familiarity for the user. Purple
-          was used very sparingly as an accent color to draw attention to
-          images.
+          greyish background was used to emulate worn paper with a reading light
+          shining on it to invoke a feeling of familiarity for the user.
+          Grey-purple was used very sparingly as an accent color to draw
+          attention to images.
         </p>
         <img src={Colors} alt="brand colors" />
         <p className="img-descriptions">
@@ -224,9 +225,10 @@ const Angela_website = () => {
         <h2 className="subtitle">Prototyping</h2>
         <p>
           The first adaptation sported a more modernized look rather than
-          vintage. Initially, the artist felt the need to be familiar to the
-          modern-day community and so the first iteration of a project's page
-          utilized a large font that was behind the project's image.
+          vintage. Initially, the artist felt taht the website needed to be
+          familiar to the modern-day community and so the first iteration of a
+          project's page utilized large fonts that were placed behind the project's
+          image.
         </p>
         <img src={Low_Fidelity} alt="Angela Contreras low fidelity wireframe" />
         <p className="img-descriptions" id="angela_low_fidelity">
@@ -273,11 +275,11 @@ const Angela_website = () => {
           </p>
           <h2 className="subtitle">Colors</h2>
           <p>
-            Throughout development, the major reason I couldn't ignore the user
+            Throughout development, the major reason I couldn't ignore They user
             research was not necessarily because I remembered but it was because
             the colors pushed the design a certain way. Although I was aware
-            that color was immensely important to a design, this project allowed
-            me to see that color is a driving factor as to where the design is
+            that color is immensely important to a design, this project allowed
+            me to see that color is often the primary factor as to where the design is
             headed.
           </p>
           <div className="project_links">
@@ -291,13 +293,13 @@ const Angela_website = () => {
           </div>
         </div>
         <div className="bottom-nav">
-          <Link to="/dollface" className="prev-button" >
+          <Link to="/dollface" className="prev-button">
             <p>Dollface PMU</p>
           </Link>
           <button className="top-button" onClick={onClick}>
             <p>top</p>
           </button>
-          <Link to="/pabl" className="next-button" >
+          <Link to="/pabl" className="next-button">
             <p>Pure Artistry</p>
           </Link>
         </div>
